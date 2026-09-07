@@ -92,6 +92,22 @@ java ParkingLotMain
 
 ---
 
+## 🖼️GUI Images
+
+this image features an interactive 15-slot grid—categorized into Compact, Large, and EV spaces—that uses color-coded status indicators to manage vehicle parking and exits. A real-time sidebar dynamically tracks occupancy metrics and total accumulated revenue as vehicles are parked or retrieved.
+<img width="1032" height="655" alt="Screenshot 2026-09-07 215528" src="https://github.com/user-attachments/assets/dda97b77-50ba-4efb-bc03-00117dbadf67" />
+
+The modal dialog Park Vehicle in Slot C1 appears after a user clicks on an available parking slot button. It displays the slot details (Slot ID: C1, Slot Type: COMPACT, Base Rate: $5.00/hour) and provides input controls for the user to select the vehicle type and set the parking duration between 1 and 24 hours.
+<img width="1033" height="652" alt="Screenshot 2026-09-07 215700" src="https://github.com/user-attachments/assets/298e8b12-3666-4b5b-bfd4-9d855dae9c2f" />
+
+An Invalid Input error popup appears when the user enters 0 hours into the parking duration field. The system blocks the invalid entry with the message "Error: Value not within min/max range", ensuring only valid parking durations between 1 and 24 hours are accepted.
+<img width="1031" height="656" alt="Screenshot 2026-09-07 215733" src="https://github.com/user-attachments/assets/303d0f7d-42c8-47dc-88bc-54922175ab59" />
+
+The main dashboard now shows three slots ((C1)COMPACT, (C8)COMPACT, and (EV1)EV) marked as red, indicating they are currently occupied. The Live Statistics sidebar automatically updates to reflect 3 occupied slots and 12 available slots.
+<img width="1036" height="650" alt="Screenshot 2026-09-07 215807" src="https://github.com/user-attachments/assets/63b4a766-552c-49ae-8bd8-1501dea9cfdc" />
+
+---
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
