@@ -1,4 +1,4 @@
-```markdown
+
 # 🚗 Smart Parking Lot Management System
 
 A desktop application built in Java Swing that demonstrates core Object-Oriented Programming (OOP) concepts while providing an interactive parking space management system.
